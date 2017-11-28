@@ -1508,7 +1508,7 @@ module.exports = {
   protocol: 'https',
   host: 'donglujun.github.io',
   //port: 8080,
-  base: '/aigis',
+  base: '/aigis/',
   asset: 'assets/',
   thumbnail: 'thumbnails/'
 };
