@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
 
-<title>千年戦争アイギスツール</title>
+<title>ご飯計算機 | 千年戦争アイギスツール</title>
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="千年戦争アイギス用のツールを公開しています。" />
+<meta name="description" content="千年戦争アイギスのキャラ合成を支援するツールです。" />
 <meta name="author" content="Seiji Nitta" />
 
-<link rel="canonical" href="http://donglujun.github.io/aigis/" />
+<link rel="canonical" href="http://donglujun.github.io/aigis/exp/" />
 
-<meta property="og:title" content="千年戦争アイギスツール" />
+<meta property="og:title" content="ご飯計算機" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="千年戦争アイギス用のツールを公開しています。" />
-<meta property="og:image" content="http://donglujun.github.io/aigis/assets/thumbnails/index.png?v=201706152010" />
-<meta property="og:url" content="http://donglujun.github.io/aigis/" />
+<meta property="og:description" content="千年戦争アイギスのキャラ合成を支援するツールです。" />
+<meta property="og:image" content="http://donglujun.github.io/aigis/assets/thumbnails/exp/index.png?v=201706152010" />
+<meta property="og:url" content="http://donglujun.github.io/aigis/exp/" />
 <meta property="og:site_name" content="千年戦争アイギスツール" />
 
     <!--[if lt IE 9]>
@@ -25,7 +25,8 @@
 <![endif]-->
 
 <link rel="stylesheet" type="text/css" href="http://donglujun.github.io/aigis/assets/css/common.css?v=201706152010">
-      <link rel="stylesheet" href="http://donglujun.github.io/aigis/assets/css/dark.css?v=201706152010" />
+    <link rel="stylesheet" href="http://donglujun.github.io/aigis/assets/css/dark.css?v=201706152010" />
+<link rel="stylesheet" type="text/css" href="http://donglujun.github.io/aigis/assets/css/exp.css?v=201706152010">
   </head>
 
   <body>
@@ -84,82 +85,90 @@
 
 
 
-<nav class="tool-list">
-  <ul>
-          <li class="tool tool-carrie "><a href="/carrie">
-        キャリーさんもそう思うジェネレーター</a>
-      </li>
-          <li class="tool tool-visualizer "><a href="/visualizer">
-        ダメージビジュアライザー</a>
-      </li>
-          <li class="tool tool-aigisrita "><a href="https://chrome.google.com/webstore/detail/ememknmjckfbganihedbodegbdddlhhl">
-        漆黒の射手リタさんがチラチラ見てくる</a>
-      </li>
-          <li class="tool tool-onmitsu "><a href="/onmitsu/">
-        隠密測定</a>
-      </li>
-          <li class="tool tool-exp "><a href="/exp/">
-        ご飯計算機</a>
-      </li>
-          <li class="tool tool-massgame "><a href="/massgame/">
-        千年マスゲーム</a>
-      </li>
-          <li class="tool tool-red-lycoris-timer "><a href="/red-lycoris-timer/">
-        赤い彼岸花タイマー</a>
-      </li>
-          <li class="tool tool-victory-medal-timer tool-deprecated"><a href="/victory-medal-timer/">
-        勝利メダルタイマー</a>
-      </li>
-          <li class="tool tool-teifushu-fragment-timer tool-deprecated"><a href="/teifushu-fragment-timer/">
-        定風珠の欠片タイマー</a>
-      </li>
-          <li class="tool tool-grimoire-fragment-timer tool-deprecated"><a href="/grimoire-fragment-timer/">
-        グリモワールの書片タイマー</a>
-      </li>
-          <li class="tool tool-dragon-bead-timer tool-deprecated"><a href="/dragon-bead-timer/">
-        龍玉の欠片タイマー</a>
-      </li>
-          <li class="tool tool-cursed-weapon-timer tool-deprecated"><a href="/cursed-weapon-timer/">
-        呪いの武器タイマー</a>
-      </li>
-          <li class="tool tool-blood-petition-timer tool-deprecated"><a href="/blood-petition-timer/">
-        血判状タイマー</a>
-      </li>
-          <li class="tool tool-sealing-talisman2-timer tool-deprecated"><a href="/sealing-talisman2-timer/">
-        封印の魂タイマー</a>
-      </li>
-          <li class="tool tool-soldier-soul-timer tool-deprecated"><a href="/soldier-soul-timer/">
-        英霊の魂タイマー</a>
-      </li>
-          <li class="tool tool-treasure-fragment2-timer tool-deprecated"><a href="/treasure-fragment2-timer/">
-        至宝のカケラタイマー</a>
-      </li>
-          <li class="tool tool-resident-soul-timer tool-deprecated"><a href="/resident-soul-timer/">
-        住民の魂タイマー</a>
-      </li>
-          <li class="tool tool-demon-bone-timer tool-deprecated"><a href="/demon-bone-timer/">
-        魔神の骨片タイマー</a>
-      </li>
-          <li class="tool tool-mithril-timer tool-deprecated"><a href="/mithril-timer/">
-        ミスリル鉱タイマー</a>
-      </li>
-          <li class="tool tool-sealing-talisman-timer tool-deprecated"><a href="/sealing-talisman-timer/">
-        封印の札タイマー(旧)</a>
-      </li>
-          <li class="tool tool-time-crystal-timer tool-deprecated"><a href="/time-crystal-timer/">
-        刻水晶タイマー</a>
-      </li>
-          <li class="tool tool-treasure-fragment-timer tool-deprecated"><a href="/treasure-fragment-timer">
-        至宝のカケラタイマー(旧)</a>
-      </li>
-          <li class="tool tool-dragon-crystal-timer tool-deprecated"><a href="/dragon-crystal-timer/">
-        竜水晶タイマー</a>
-      </li>
-      </ul>
-</nav>
 
-<div class="maintenance">
-  <img src="http://donglujun.github.io/aigis/assets/maintenance.png?v=201706152010">
+<div id="app" class="app-exp">
+  <h1>ご飯計算機
+    <small>カッコカリ</small>
+  </h1>
+
+  <div class="row">
+    <div class="col-sm-5 plan-form">
+      <section class="form">
+        <input type="hidden" name="rarity_id" />
+        <div class="form-group">
+          <label for="preset_id" class="control-label">飼育対象</label>
+          <div class="">
+            <select id="preset_id" name="preset_id" class="form-control input-lg">
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="breeding_span" class="control-label">飼育区間</label>
+          <div class="">
+            <input type="text" id="breeding_span" name="breeding_span" />
+            <div class="btn-group" data-ph="breeding_plan_id">
+            </div>
+          </div>
+        </div>
+        <div class="form-horizontal">
+          <div class="form-group">
+            <label for="current_level" class="control-label col-sm-5">現在のレベル</label>
+            <div class="col-sm-7">
+              <select id="current_level" name="current_level" class="form-control">
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="current_remain_exp" class="control-label col-sm-5">次のレベルまであと</label>
+            <div class="col-sm-7">
+              <input id="current_remain_exp" type="text" name="current_remain_exp" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="target_level" class="control-label col-sm-5">目標のレベル</label>
+            <div class="col-sm-7">
+              <select id="target_level" name="target_level" class="form-control">
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-5">煮込み方法</label>
+            <div class="col-sm-7">
+              <select name="combine_method_id" class="form-control"></select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-5"></label>
+            <div class="col-sm-7">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="breeding_spirit" value="1">
+                  育成の精霊サリエット
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="col-sm-7 breeding">
+      <section class="breeding-item">
+        <div class="required-exp">
+          <div class="property">
+            <span class="property-prefix" data-ph="required_exp_level"></span>
+            <span class="property-value" data-ph="total_required_exp"></span>
+            <span class="property-unit">必要な経験値</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="breeding-item">
+        <ul class="exp-unit" data-ph="required_exp_units">
+        </ul>
+      </section>
+    </div>
+  </div>
 </div>
     </div>
 
@@ -169,8 +178,7 @@
     <aside class="copyright">
       <h2>Copyright</h2>
       <ul>
-          <li><a href="#">メメンテナンスちゃんを始めキャラクターの画像はほぼ全てぴんくちゃんねるのアイギススレに投稿された物を使用しています。</a></li>
-        <li><a href="http://www.dmm.com/netgame_s/aigisc/">千年戦争アイギス &copy;株式会社DMM.comラボ</a></li>
+                <li><a href="http://www.dmm.com/netgame_s/aigisc/">千年戦争アイギス &copy;株式会社DMM.comラボ</a></li>
       </ul>
     </aside>
 
@@ -234,5 +242,6 @@
 
     
     <script src="http://donglujun.github.io/aigis/assets/js/common.js?v=201706152010"></script>
-      </body>
+    <script src="http://donglujun.github.io/aigis/assets/js/exp.js?v=201706152010"></script>
+  </body>
 </html>
