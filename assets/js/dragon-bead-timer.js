@@ -1506,9 +1506,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 module.exports = {
   root: _path2.default.resolve(__dirname, '../../public'),
   protocol: 'https',
-  host: 'donglujun.github.io/aigis',
+  host: 'donglujun.github.io',
   //port: 8080,
-  base: '/',
+  base: '/aigis',
   asset: 'assets/',
   thumbnail: 'thumbnails/'
 };
